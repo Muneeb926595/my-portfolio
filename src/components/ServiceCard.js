@@ -5,7 +5,7 @@ function ServiceCard(props) {
     return (
         <React.Fragment>
             <div className="col-md-4 col-10 mx-auto">
-                <div className="card">
+                <div className="card makeitlive">
                     <img style={{height:"230px"}} src={props.imgSrc} className="card-img-top" alt={props.imgSrc} />
                     <div className="card-body">
                         <h5 className="card-title">{props.title}</h5>

@@ -8,11 +8,11 @@ function CommonPage(props) {
         myAnimation.current.animate(
             [
               { transform: 'translateY(0)' },
-              { transform: 'translateY(-5%)' },
+              { transform: 'translateY(-3%)' },
               { transform: 'translateY(0)' }
             ], {
             direction: "reverse",
-            duration: 3000,
+            duration: 2400,
             iterations: Infinity
           });
     })
