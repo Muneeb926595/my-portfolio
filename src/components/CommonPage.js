@@ -5,7 +5,7 @@ function CommonPage(props) {
     const myAnimation=useRef(null);
 
     useLayoutEffect(()=>{
-        var AboutAnimation = myAnimation.current.animate(
+        myAnimation.current.animate(
             [
               { transform: 'translateY(0)' },
               { transform: 'translateY(-5%)' },
