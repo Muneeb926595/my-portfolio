@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../images/rocket.svg';
+import aboutImage from '../images/home.png';
 import CommonPage from './CommonPage';
 function Home() {
     return (
